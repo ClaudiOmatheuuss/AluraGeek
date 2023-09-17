@@ -1,3 +1,12 @@
+:root {
+    --branco: #fff;
+    --cinza: #F5F5F5;
+    --azul-claro: #eaf2fd;
+    --azul-100: #2A7AE4;
+    --preto-50: #A2A2A2;
+    --fonte-padrao: 'Raleway';
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -14,7 +23,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font: inherit;
+	font: var(--fonte-padrao);
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */

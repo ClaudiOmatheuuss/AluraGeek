@@ -1,11 +1,3 @@
-:root {
-    --branco: #fff;
-    --cinza: #F5F5F5;
-    --azul-claro: #eaf2fd;
-    --azul-100: #2A7AE4;
-    --preto-50: #A2A2A2;
-}
-
 .header {
     background: var(--branco);
     display: flex;
@@ -46,7 +38,7 @@
 }
 
 .header__pesquisa--input {
-    display: none;
+    width: 0;
 }
 
 .btn__login__header {
@@ -54,20 +46,15 @@
     justify-content: center;
     align-items: center;
     gap: .8rem;
-    padding: 0.75rem 1rem;
-    font-family: 'Raleway';
-    font-size: .875rem;
+    font-family: var(--fonte-padrao);
     font-weight: 600;
-    cursor: pointer;
-    width: 6.2rem;
+    width: 4.8rem;
     background-color: transparent;
-    transition: ease-out .5ms;
+    transition: ease-out .5s;
     background: none;
     border: 1px solid var(--azul-100);
     color: var(--azul-100);
     display: flex;
-    font-weight: 400;
-    justify-content: center;
     font-size: 16px;
     padding: 1rem;
     cursor: pointer;
@@ -76,6 +63,11 @@
 .btn__login__header:hover {
     color: var(--branco);
     background-color: var(--azul-100);
+}
+
+.lupa__img:hover > header div input {
+    width: 100px;
+    display: block;
 }
 
 @media screen and (min-width: 768px){
@@ -109,12 +101,17 @@
         cursor: pointer;
     }
 
-    .header__img {
+    .lupa__img {
         display: none;
     }
 
     .btn__login__header {
         width: 10.375rem;
+    }
+
+    .btn__pesquisa__img {
+        border: none;
+        background: transparent;
     }
 
 }

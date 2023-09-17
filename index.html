@@ -6,8 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/header/header.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/header/header.css" />
+    <link rel="stylesheet" href="./assets/css/banner/banner.css" />
     <title>Alura Geek - início</title>
 </head>
 
@@ -21,14 +22,23 @@
             </div>
 
             <div class="header__nav__pesquisa">
-                <input class="header__pesquisa--input" placeholder="O que você deseja encontrar?" type="text">
+                <input class="header__pesquisa--input" placeholder="O que você deseja encontrar?" type="text" id="input__pesquisa">
                 <a class="btn__pesquisa__img" href="#"><img class="header__pesquisa__img" src="./assets/img/lupa.svg" alt="Lupa"></a>
             </div>
 
         </nav>
         <a href="./Pages/login.html" class="btn__login__header">Login</a>
-        <img class="header__img" src="./assets/img/lupa.svg" alt="Lupa">
+        <a class="lupa__img" href="#"><img class="header__pesquisa__img" src="./assets/img/lupa.svg" alt="Lupa"></a>
     </header>
+    <main>
+        <section class="banner">
+            <div class="banner__content">
+                <h2>Dezembro Promocional</h2>
+                <h4>Produtos selecionados com 33% de desconto</h4>
+                <a href="#"><button>Ver Consoles</button></a>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
