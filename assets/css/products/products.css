@@ -1,7 +1,7 @@
 .products__container {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px;
     padding: 16px;
 }
 
@@ -80,7 +80,6 @@
 
 @media screen and (min-width: 768px){
     .products__container {
-        gap: 16px;
         padding: 2rem;
     }
 
@@ -106,5 +105,5 @@
         padding: 4rem;
     }
 
-    
+
 }
