@@ -110,6 +110,20 @@ form .footer__form__btn:hover {
     background-color: var(--azul-80);
 }
 
+.dev {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding: 2rem;
+}
+.dev p {
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    color: var(--preto-100);
+    font-weight: 500;
+}
+
 @media screen and (min-width: 768px){
     footer {
         align-items: flex-start;
