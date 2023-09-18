@@ -132,13 +132,10 @@
         background-color: var(--cinza);
     }
 
-}
-
-@media screen and (min-width: 1440px){
-
     .header {
-        margin: 0 auto;
-        max-width: 1133px;
+        justify-content: space-around;
     }
-    
+    .header__nav {
+        gap: 0;
+    }
 }

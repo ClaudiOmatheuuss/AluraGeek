@@ -67,6 +67,10 @@
         padding: 2rem 4.5rem;
     }
 
+    .banner__content h2 {
+        font-size: 3.25rem;
+    }
+
     .banner__content button {
         padding: 16px;
     }
