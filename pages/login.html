@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/css/header/header.css" />
+    <link rel="stylesheet" href="/assets/css/login-form/login-form.css" />
     <link rel="stylesheet" href="/assets/css/footer/footer.css" />
     <title>Alura Geek - início</title>
 </head>
@@ -37,9 +38,27 @@
     </header>
     <main>
         
+        <!-- secao do form de login -->
+        <section class="form-login">
+            <div class="form__content">
+                <h2 class="form__login__title">Iniciar Sessão</h2>
+                <form class="form__content">
 
-        <!-- secao do form de login !!! -->
+                    <div class="form__login__field">
+                        <label for="email" class="form__login__label">Email</label>
+                        <input class="form__login__input" type="text" name="email" id="email" required>
+                    </div>
 
+                    <div class="form__login__field">
+                        <label for="senha" class="form__login__label">Senha</label>
+                        <input class="form__login__input" type="password" name="senha" required minlength="3" maxlength="100">
+                    </div>
+
+                    <button class="form__login__btn" type="submit">Entrar</button>
+
+                </form>
+            </div>
+        </section>
 
     </main>
     <footer>

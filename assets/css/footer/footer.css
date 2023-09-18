@@ -4,7 +4,6 @@ footer {
     flex-direction: column;
     gap: 2rem;
     font-family: var(--fonte-padrao);
-    margin-top: 1rem;
     padding: 1rem;
 }
 
