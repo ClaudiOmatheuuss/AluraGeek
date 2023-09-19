@@ -12,7 +12,11 @@
     gap: 16px;
 }
 
-.category__container #produto-5, #produto-6 {
+.category__content .produto-5 {
+    display: none;
+}
+
+.category__content .produto-6 {
     display: none;
 }
 
@@ -96,7 +100,11 @@
 }
 
 @media screen and (min-width: 1024px){
-    .category__container #produto-5, #produto-6 {
+    .category__content .produto-5 {
+        display: flex;
+    }
+
+    .category__content .produto-6 {
         display: flex;
     }
 

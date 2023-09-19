@@ -1,0 +1,14 @@
+{
+    "name": "alura-geek",
+    "version": "1.0.1",
+    "description": "Exemplo de servidor JSON local com json-server",
+    "main": "/assets/js/services/produtos-services.js",
+    "scripts": {
+        "start": "json-server --watch db.json --port 3000"
+    },
+    "author": "Seu Nome",
+    "license": "",
+    "devDependencies": {
+        "json-server": "^0.16.3"
+    }
+}

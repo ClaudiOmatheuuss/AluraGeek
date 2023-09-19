@@ -35,7 +35,7 @@
             </div>
 
         </nav>
-        <a href="./pages/login.html" class="btn__login__header">Login</a>
+        <a href="./views/login.html" class="btn__login__header">Login</a>
         <a class="lupa__img" href="#"><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg" alt="Lupa"></a>
     </header>
     <main>
@@ -48,7 +48,7 @@
         </section>
         <!-- container dos produtos -->
         <section class="products__container">
-            <!-- categoria 1: star-wars -->
+            
             <section class="category__container">
                 <div class="category__header">
                     <h2>Star Wars</h2>
@@ -59,8 +59,8 @@
                     </a>
                 </div>
 
-                <div class="category__content">
-
+                <ul class="category__content" id="starwars__products" data-starwars>
+                    <!-- categoria 1: star-wars
                     <div class="product-card" id="produto-1">
                         <a href="#">
                             <img src="/assets/img/products/star-wars/star-wars__1.png"
@@ -118,12 +118,12 @@
                         <p class="card-nome">Produto XYZ</p>
                         <p class="card-preco">R$ 60,00</p>
                         <a href="#" class="card-link">Ver produto</a>
-                    </div>
-                </div>
+                    </div> -->
+                </ul>
 
             </section>
 
-            <!-- categoria 2: Consoles -->
+            
             <section class="category__container" id="consoles">
                 <div class="category__header">
                     <h2>Consoles</h2>
@@ -133,9 +133,10 @@
                             alt="Flecha que redireciona para ver todos os produtos da categoria consoles" />
                     </a>
                 </div>
-
-                <div class="category__content">
-
+                
+                <ul class="category__content" id="consoles__products" data-consoles>
+                <!-- categoria 2: Consoles 
+                    
                     <div class="product-card" id="produto-1">
                         <a href="#">
                             <img src="/assets/img/products/consoles/consoles-1.png"
@@ -194,12 +195,12 @@
                         <p class="card-nome">Gameboy + jogos</p>
                         <p class="card-preco">R$ 60,00</p>
                         <a href="#" class="card-link">Ver produto</a>
-                    </div>
-                </div>
+                    </div>-->
+                </ul>
 
             </section>
 
-            <!-- categoria 3: diversos -->
+            
             <section class="category__container">
                 <div class="category__header">
                     <h2>Diversos</h2>
@@ -210,8 +211,8 @@
                     </a>
                 </div>
 
-                <div class="category__content">
-
+                <ul class="category__content" id="diversos__products" data-diversos>
+                    <!-- categoria 3: diversos 
                     <div class="product-card" id="produto-1">
                         <a href="#">
                             <img src="/assets/img/products/diversos/diversos-1.png"
@@ -270,8 +271,8 @@
                         <p class="card-nome">Cosplay Pikachu</p>
                         <p class="card-preco">R$ 60,00</p>
                         <a href="#" class="card-link">Ver produto</a>
-                    </div>
-                </div>
+                    </div>-->
+                </ul>
 
             </section>
 
@@ -316,5 +317,5 @@
         <p>2023</p>
     </div>
 </body>
-
+<script type="module" src="./assets/js/controllers/exibeCard-controllers.js"></script>
 </html>
