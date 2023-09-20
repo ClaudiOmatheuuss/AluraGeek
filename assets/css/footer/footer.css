@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: var(--azul-claro);
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@ form .footer__form__btn:hover {
 }
 
 @media screen and (min-width: 768px){
-    footer {
+    .footer {
         align-items: flex-start;
         flex-direction: row;
         justify-content: space-between;
@@ -150,7 +150,7 @@ form .footer__form__btn:hover {
 }
 
 @media screen and (min-width: 1024px){
-    footer {
+    .footer {
         padding: 4rem;
     }
 
