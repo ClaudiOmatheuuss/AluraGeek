@@ -28,15 +28,15 @@
 
             <div class="header__nav__pesquisa">
                 <input class="header__pesquisa--input" placeholder="O que você deseja encontrar?" type="text"
-                    id="input__pesquisa">
-                <a class="btn__pesquisa__img" href="#"><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg"
+                    id="input__pesquisa" data-input-pesquisa />
+                <button class="btn__pesquisa__img"><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg"
                     alt="Lupa">
-                </a>
+                </button>
             </div>
 
         </nav>
         <a href="./views/login.html" class="btn__login__header">Login</a>
-        <a class="lupa__img" href="#"><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg" alt="Lupa"></a>
+        <button class="lupa__img" ><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg" alt="Lupa"></button>
     </header>
     <main>
         <section class="banner">
@@ -48,233 +48,55 @@
         </section>
         <!-- container dos produtos -->
         <section class="products__container">
-            
-            <section class="category__container">
-                <div class="category__header">
-                    <h2>Star Wars</h2>
-                    <a href="./views/categoria.html?section=starWars">
-                        <p>Ver tudo</p>
-                        <img src="./assets/img/products/header-arrow.svg"
-                            alt="Flecha que redireciona para ver todos os produtos de Star Wars" />
-                    </a>
-                </div>
+            <div style="display: none;"></div>
+            <ul data-produtos style="display: flex; flex-direction: column;">
+                    <section class="category__container">
+                        <div class="category__header">
+                            <h2>Star Wars</h2>
+                            <a href="./views/categoria.html?section=starWars">
+                                <p>Ver tudo</p>
+                                <img src="./assets/img/products/header-arrow.svg"
+                                    alt="Flecha que redireciona para ver todos os produtos de Star Wars" />
+                            </a>
+                        </div>
+        
+                        <ul class="category__content" id="starwars__products" data-starwars>
+                            
+                        </ul>
+        
+                    </section>
+                    <section class="category__container" id="consoles">
+                        <div class="category__header">
+                            <h2>Consoles</h2>
+                            <a href="./views/categoria.html?section=consoles">
+                                <p>Ver tudo</p>
+                                <img src="./assets/img/products/header-arrow.svg"
+                                    alt="Flecha que redireciona para ver todos os produtos da categoria consoles" />
+                            </a>
+                        </div>
+                        
+                        <ul class="category__content" id="consoles__products" data-consoles>
+                        
+                        </ul>
+        
+                    </section>
+                    <section class="category__container">
+                        <div class="category__header">
+                            <h2>Diversos</h2>
+                            <a href="./views/categoria.html?section=diversos">
+                                <p>Ver tudo</p>
+                                <img src="./assets/img/products/header-arrow.svg"
+                                    alt="Flecha que redireciona para ver todos os produtos da categoria de diversos" />
+                            </a>
+                        </div>
+        
+                        <ul class="category__content" id="diversos__products" data-diversos>
+                            
+                        </ul>
+        
+                    </section>
+            </ul>
 
-                <ul class="category__content" id="starwars__products" data-starwars>
-                    <!-- categoria 1: star-wars
-                    <div class="product-card" id="produto-1">
-                        <a href="#">
-                            <img src="./assets/img/products/star-wars/star-wars__1.png"
-                            alt="Xícara de Stormtrooper do Star wars">
-                        </a>
-                        <p class="card-nome">Produto XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-2">
-                        <a href="#">
-                            <img src="./assets/img/products/star-wars/star-wars__2.png"
-                            alt="Decoração da mascara do Darth Vader de Star wars">
-                        </a>
-                        <p class="card-nome">Produto XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-3">
-                        <a href="#">
-                            <img src="./assets/img/products/star-wars/star-wars__3.png"
-                            alt="Miniatura do mestre Yoda de Star wars">
-                        </a>
-                        <p class="card-nome">Produto XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-4">
-                        <a href="#">
-                            <img src="./assets/img/products/star-wars/star-wars__4.png"
-                            alt="Boneco Stormtrooper de Star wars">
-                        </a>
-                        <p class="card-nome">Produto XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-5">
-                        <a href="#">
-                            <img src="./assets/img/products/star-wars/star-wars__5.png"
-                            alt="Miniatura do mestre Yoda de Star wars">
-                        </a>
-                        <p class="card-nome">Produto XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-6">
-                        <a href="#">
-                            <img src="./assets/img/products/star-wars/star-wars__6.png" alt="Boneco Kylo ren de Star wars">
-                        </a>
-                        <p class="card-nome">Produto XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div> -->
-                </ul>
-
-            </section>
-
-            
-            <section class="category__container" id="consoles">
-                <div class="category__header">
-                    <h2>Consoles</h2>
-                    <a href="./views/categoria.html?section=consoles">
-                        <p>Ver tudo</p>
-                        <img src="./assets/img/products/header-arrow.svg"
-                            alt="Flecha que redireciona para ver todos os produtos da categoria consoles" />
-                    </a>
-                </div>
-                
-                <ul class="category__content" id="consoles__products" data-consoles>
-                <!-- categoria 2: Consoles 
-                    
-                    <div class="product-card" id="produto-1">
-                        <a href="#">
-                            <img src="./assets/img/products/consoles/consoles-1.png"
-                            alt="Controle de Xbox">
-                        </a>
-                        <p class="card-nome">Controle para Xbox/PC</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-2">
-                        <a href="#">
-                            <img src="./assets/img/products/consoles/consoles-2.png"
-                            alt="Imagem de um console com controle">
-                        </a>
-                        <p class="card-nome">Controle e console XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-3">
-                        <a href="#">
-                            <img src="./assets/img/products/consoles/consoles-3.png"
-                            alt="Console da Nintendo">
-                        </a>
-                        <p class="card-nome">Console retro Nintendo</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-4">
-                        <a href="#">
-                            <img src="./assets/img/products/consoles/consoles-4.png"
-                            alt="Console Nintendo Switch">
-                        </a>
-                        <p class="card-nome">Nintendo Switch</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-5">
-                        <a href="#">
-                            <img src="./assets/img/products/consoles/consoles-5.png"
-                            alt="Console XYZ">
-                        </a>
-                        <p class="card-nome">Console XYZ</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-6">
-                        <a href="#">
-                            <img src="./assets/img/products/consoles/consoles-6.png"
-                            alt="Gameboy com alguns disquetes de brinde">
-                        </a>
-                        <p class="card-nome">Gameboy + jogos</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>-->
-                </ul>
-
-            </section>
-
-            
-            <section class="category__container">
-                <div class="category__header">
-                    <h2>Diversos</h2>
-                    <a href="./views/categoria.html?section=diversos">
-                        <p>Ver tudo</p>
-                        <img src="./assets/img/products/header-arrow.svg"
-                            alt="Flecha que redireciona para ver todos os produtos da categoria de diversos" />
-                    </a>
-                </div>
-
-                <ul class="category__content" id="diversos__products" data-diversos>
-                    <!-- categoria 3: diversos 
-                    <div class="product-card" id="produto-1">
-                        <a href="#">
-                            <img src="./assets/img/products/diversos/diversos-1.png"
-                            alt="Camisa da Atari">
-                        </a>
-                        <p class="card-nome">Camisa Atari</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-2">
-                        <a href="#">
-                            <img src="./assets/img/products/diversos/diversos-2.png"
-                            alt="Camisa da Nintendo">
-                        </a>
-                        <p class="card-nome">Camisa SNES</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-3">
-                        <a href="#">
-                            <img src="./assets/img/products/diversos/diversos-3.png"
-                            alt="BOneco Miniatura do Sonic">
-                        </a>
-                        <p class="card-nome">Miniatura Sonic</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-4">
-                        <a href="#">
-                            <img src="./assets/img/products/diversos/diversos-4.png"
-                            alt="Relogio digital">
-                        </a>
-                        <p class="card-nome">Relogio digital</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-5">
-                        <a href="#">
-                            <img src="./assets/img/products/diversos/diversos-5.png"
-                            alt="Oculos de Realidade virtual">
-                        </a>
-                        <p class="card-nome">Oculos VR</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>
-
-                    <div class="product-card" id="produto-6">
-                        <a href="#">
-                            <img src="./assets/img/products/diversos/diversos-6.png"
-                            alt="Fantasia de Pikachu">
-                        </a>
-                        <p class="card-nome">Cosplay Pikachu</p>
-                        <p class="card-preco">R$ 60,00</p>
-                        <a href="#" class="card-link">Ver produto</a>
-                    </div>-->
-                </ul>
-
-            </section>
 
         </section>
     </main>
@@ -317,5 +139,6 @@
         <p>2023</p>
     </div>
 </body>
+<script type="module" src="./assets/js/controllers/pesquisaProduto.js"></script>
 <script type="module" src="./assets/js/controllers/exibeCard-controllers.js"></script>
 </html>
