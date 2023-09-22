@@ -12,11 +12,7 @@
     gap: 16px;
 }
 
-.category__content .produto-5 {
-    display: none;
-}
-
-.category__content .produto-6 {
+.category__content :nth-child(n+5) {
     display: none;
 }
 
@@ -102,11 +98,8 @@
 }
 
 @media screen and (min-width: 1024px){
-    .category__content .produto-5 {
-        display: flex;
-    }
-
-    .category__content .produto-6 {
+    .category__content :nth-child(5),
+    .category__content :nth-child(6) {
         display: flex;
     }
 

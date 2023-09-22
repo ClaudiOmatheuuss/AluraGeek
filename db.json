@@ -7,7 +7,6 @@
       "id": 1,
       "alt": "Imagem do produto",
       "section": "starWars",
-      "sectionId": "produto-1",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -17,7 +16,6 @@
       "id": 2,
       "alt": "Imagem do produto",
       "section": "starWars",
-      "sectionId": "produto-2",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -27,7 +25,6 @@
       "id": 3,
       "alt": "Imagem do produto",
       "section": "starWars",
-      "sectionId": "produto-3",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -37,7 +34,6 @@
       "id": 4,
       "alt": "Imagem do produto",
       "section": "starWars",
-      "sectionId": "produto-4",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -47,7 +43,6 @@
       "id": 5,
       "alt": "Imagem do produto",
       "section": "starWars",
-      "sectionId": "produto-5",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -57,7 +52,6 @@
       "id": 6,
       "alt": "Imagem do produto",
       "section": "starWars",
-      "sectionId": "produto-6",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -67,7 +61,6 @@
       "id": 7,
       "alt": "Imagem do produto",
       "section": "consoles",
-      "sectionId": "produto-1",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -77,7 +70,6 @@
       "id": 8,
       "alt": "Imagem do produto",
       "section": "consoles",
-      "sectionId": "produto-2",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -87,7 +79,6 @@
       "id": 9,
       "alt": "Imagem do produto",
       "section": "consoles",
-      "sectionId": "produto-3",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -97,7 +88,6 @@
       "id": 10,
       "alt": "Imagem do produto",
       "section": "consoles",
-      "sectionId": "produto-4",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -107,7 +97,6 @@
       "id": 11,
       "alt": "Imagem do produto",
       "section": "consoles",
-      "sectionId": "produto-5",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -117,7 +106,6 @@
       "id": 12,
       "alt": "Imagem do produto",
       "section": "consoles",
-      "sectionId": "produto-6",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -127,7 +115,6 @@
       "id": 13,
       "alt": "Imagem do produto",
       "section": "diversos",
-      "sectionId": "produto-1",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -137,7 +124,6 @@
       "id": 14,
       "alt": "Imagem do produto",
       "section": "diversos",
-      "sectionId": "produto-2",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -147,7 +133,6 @@
       "id": 15,
       "alt": "Imagem do produto",
       "section": "diversos",
-      "sectionId": "produto-3",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -157,7 +142,6 @@
       "id": 16,
       "alt": "Imagem do produto",
       "section": "diversos",
-      "sectionId": "produto-4",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -167,7 +151,6 @@
       "id": 17,
       "alt": "Imagem do produto",
       "section": "diversos",
-      "sectionId": "produto-5",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
@@ -176,7 +159,6 @@
       "price": "89,90",
       "alt": "Imagem do produto",
       "section": "diversos",
-      "sectionId": "produto-6",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": 18
     }

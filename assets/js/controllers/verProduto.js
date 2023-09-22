@@ -52,7 +52,7 @@ function carregaSimilares(produtoSelecionado, listaProdutos) {
 
     //para cada produto similar cria um card
     produtosSimilares.forEach( product =>
-        similaresSection.appendChild(criaCard( product.name, product.id, product.imageUrl, product.price, product.sectionId ))
+        similaresSection.appendChild(criaCard( product.name, product.id, product.imageUrl, product.price ))
     )
 
 }

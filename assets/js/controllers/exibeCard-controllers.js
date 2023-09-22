@@ -11,11 +11,11 @@ async function exibeCards() {
 
         listaApi.forEach(element => {
             if (element.section === "starWars") {
-                starwarsProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price, element.sectionId ));
+                starwarsProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price ));
             } else if (element.section === "consoles") {
-                consolesProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price, element.sectionId ));
+                consolesProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price ));
             } else if (element.section === "diversos") {
-                diversosProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price, element.sectionId ));
+                diversosProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price ));
             }
         });
     } catch (error) {

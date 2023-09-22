@@ -1,6 +1,6 @@
-export default function criaCard (name, id, imageUrl, price, sectionId) {
+export default function criaCard (name, id, imageUrl, price) {
     const card = document.createElement("li")
-    card.className = `product-card ${sectionId}` 
+    card.className = `product-card` 
     const conteudo = `
                     <a href="../views/produto.html?id=${id}">
                         <img src="${imageUrl}"
