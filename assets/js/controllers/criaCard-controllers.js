@@ -8,7 +8,7 @@ export default function criaCard (name, id, imageUrl, price) {
                     </a>
                     <p class="card-nome">${name}</p>
                     <p class="card-preco">R$ ${price}</p>
-                    <a href="../views/produto.html?id=${id}" class="card-link">Ver produto</a>
+                    <a href="./views/produto.html?id=${id}" class="card-link">Ver produto</a>
     `
 
     card.innerHTML = conteudo
