@@ -6,17 +6,17 @@ function criaRodape() {
     const conteudo = `<div class="footer__content">
 
             <div class="footer__logo">
-                <a href="./index.html"><img src="/assets/img/footer/logo.png" alt="Controle de videogame azul e texto Alura Geek"></a>
+                <a href="../index.html"><img src="../assets/img/footer/logo.png" alt="Controle de videogame azul e texto Alura Geek"></a>
             </div>
             <div class="footer__links">
                 <nav>
                     <ul>
-                        <li><a href="./index.html">Quem somos nós</a></li>
-                        <li><a href="./index.html">Politica de privacidade</a></li>
-                        <li><a href="./index.html">Programa fidelidade</a></li>
-                        <li><a href="./index.html">Nossas lojas</a></li>
-                        <li><a href="./index.html">Quero ser franqueado</a></li>
-                        <li><a href="./index.html">Anuncie Aqui</a></li>
+                        <li><a href="#">Quem somos nós</a></li>
+                        <li><a href="#">Politica de privacidade</a></li>
+                        <li><a href="#">Programa fidelidade</a></li>
+                        <li><a href="#">Nossas lojas</a></li>
+                        <li><a href="#">Quero ser franqueado</a></li>
+                        <li><a href="#">Anuncie Aqui</a></li>
                     </ul>
                 </nav>
             </div>
