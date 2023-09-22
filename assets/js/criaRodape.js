@@ -6,7 +6,7 @@ function criaRodape() {
     const conteudo = `<div class="footer__content">
 
             <div class="footer__logo">
-                <a href="./index.html"><img src="../assets/img/footer/logo.png" alt="Controle de videogame azul e texto Alura Geek"></a>
+                <a href="../index.html"><img src="../assets/img/footer/logo.png" alt="Controle de videogame azul e texto Alura Geek"></a>
             </div>
             <div class="footer__links">
                 <nav>
