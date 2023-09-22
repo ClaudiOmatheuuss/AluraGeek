@@ -94,10 +94,10 @@
     }
 
     .product-card img {
-        height: 185px;
-        width: 180px;
+        height: 174px;
+        width: 164px;
     }
-
+    
     .product-card .card-link {
         color: var(--azul-100);
         font-size: 16px;
@@ -109,6 +109,11 @@
     .products__container {
         gap: 4rem;
         padding: 4rem;
+    }
+    
+    .product-card img {
+        height: 184px;
+        width: 186px;
     }
 
     .products__header h1 {

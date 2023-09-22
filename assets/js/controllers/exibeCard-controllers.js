@@ -5,7 +5,7 @@ const starwarsProdutos = document.getElementById("starwars__products")
 const consolesProdutos = document.getElementById("consoles__products")
 const diversosProdutos = document.getElementById("diversos__products")
 
-async function exibeCard() {
+async function exibeCards() {
     try {
         const listaApi = await conectaApi.listaProdutos();
 
@@ -23,4 +23,4 @@ async function exibeCard() {
     }
 }
 
-exibeCard();
+exibeCards();

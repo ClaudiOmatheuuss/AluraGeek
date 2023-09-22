@@ -12,6 +12,6 @@ export default function criaCard (name, id, imageUrl, price, sectionId) {
     `
 
     card.innerHTML = conteudo
-    console.log(card)
+    console.log(card) //exibe cards criados
     return card
 }

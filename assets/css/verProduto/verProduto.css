@@ -1,0 +1,110 @@
+/* estilos da secao do produto selecionado */
+.selected__container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.selected__product .selected__img {
+    width: 100vw;
+    height: 192px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selected__info {
+    color: var(--preto-100, #464646);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    font-family: var(--fonte-padrao);
+    text-align: left;
+}
+
+.selected__info .selected__title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.selected__info .selected__price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.selected__info .selected__description {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media screen and (min-width: 768px){
+    .selected__container {
+        align-items: center;
+        padding: 0rem;
+        gap: 16px;
+    }
+
+    .selected__product .selected__img {
+        display: flex;
+        width: 254px;
+        height: 157px;
+    }
+    
+    .selected__info {
+        width: 55.64%;
+        gap: 8px;
+        margin: 0;
+        padding: 0px;
+        text-align: left;
+    }
+}
+
+
+/* estilos da secao de produtos similares */
+.similar__container {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    margin: 28px 0;
+    text-align: left;
+    justify-content: center;
+}
+
+.similar__container .similar__title {
+    color: var(--preto-100);
+    font-size: 22px;
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+}
+
+.similar__container .similar__products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.similar__container .similar__products :nth-child(n+5) {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .similar__container {
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .similar__container {
+        padding: 4rem;
+    }
+
+    .similar__container .similar__products :nth-child(n+5) {
+        display: flex;
+    }
+}
