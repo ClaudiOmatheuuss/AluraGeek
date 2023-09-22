@@ -22,7 +22,7 @@
 
             <div class="header__nav__logo">
                 <a class="nav__logo" href="./index.html"><img src="./assets/img/header/logo.png"
-                    alt="Controle de videogame azul e texto Alura Geek">
+                        alt="Controle de videogame azul e texto Alura Geek">
                 </a>
             </div>
 
@@ -30,13 +30,14 @@
                 <input class="header__pesquisa--input" placeholder="O que você deseja encontrar?" type="text"
                     id="input__pesquisa" data-input-pesquisa />
                 <button class="btn__pesquisa__img"><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg"
-                    alt="Lupa">
+                        alt="Lupa">
                 </button>
             </div>
 
         </nav>
         <a href="./views/login.html" class="btn__login__header">Login</a>
-        <button class="lupa__img" ><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg" alt="Lupa"></button>
+        <button class="lupa__img"><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg"
+                alt="Lupa"></button>
     </header>
     <main>
         <section class="banner">
@@ -50,51 +51,192 @@
         <section class="products__container">
             <div style="display: none;"></div>
             <ul data-produtos style="display: flex; flex-direction: column;">
-                    <section class="category__container">
-                        <div class="category__header">
-                            <h2>Star Wars</h2>
-                            <a href="./views/categoria.html?section=starWars">
-                                <p>Ver tudo</p>
-                                <img src="./assets/img/products/header-arrow.svg"
-                                    alt="Flecha que redireciona para ver todos os produtos de Star Wars" />
+                <section class="category__container">
+                    <div class="category__header">
+                        <h2>Star Wars</h2>
+                        <a href="./views/categoria.html?section=starWars">
+                            <p>Ver tudo</p>
+                            <img src="./assets/img/products/header-arrow.svg"
+                                alt="Flecha que redireciona para ver todos os produtos de Star Wars" />
+                        </a>
+                    </div>
+
+                    <ul class="category__content" id="starwars__products" data-starwars>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=1">
+                                <img src="./assets/img/products/starWars/starWars-1.svg" alt="imagem do produto">
                             </a>
-                        </div>
-        
-                        <ul class="category__content" id="starwars__products" data-starwars>
-                            
-                        </ul>
-        
-                    </section>
-                    <section class="category__container" id="consoles">
-                        <div class="category__header">
-                            <h2>Consoles</h2>
-                            <a href="./views/categoria.html?section=consoles">
-                                <p>Ver tudo</p>
-                                <img src="./assets/img/products/header-arrow.svg"
-                                    alt="Flecha que redireciona para ver todos os produtos da categoria consoles" />
+                            <p class="card-nome">Xícara Stormtrooper</p>
+                            <p class="card-preco">R$ 25,00</p>
+                            <a href="./views/produto.html?id=1" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=2">
+                                <img src="./assets/img/products/starWars/starWars-2.svg" alt="imagem do produto">
                             </a>
-                        </div>
-                        
-                        <ul class="category__content" id="consoles__products" data-consoles>
-                        
-                        </ul>
-        
-                    </section>
-                    <section class="category__container">
-                        <div class="category__header">
-                            <h2>Diversos</h2>
-                            <a href="./views/categoria.html?section=diversos">
-                                <p>Ver tudo</p>
-                                <img src="./assets/img/products/header-arrow.svg"
-                                    alt="Flecha que redireciona para ver todos os produtos da categoria de diversos" />
+                            <p class="card-nome">Mascara SW</p>
+                            <p class="card-preco">R$ 35,00</p>
+                            <a href="./views/produto.html?id=2" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=3">
+                                <img src="./assets/img/products/starWars/starWars-3.svg" alt="imagem do produto">
                             </a>
-                        </div>
-        
-                        <ul class="category__content" id="diversos__products" data-diversos>
-                            
-                        </ul>
-        
-                    </section>
+                            <p class="card-nome">Miniatura Yoda</p>
+                            <p class="card-preco">R$ 60,00</p>
+                            <a href="./views/produto.html?id=3" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=4">
+                                <img src="./assets/img/products/starWars/starWars-4.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Boneco Stormtrooper</p>
+                            <p class="card-preco">R$ 69,99</p>
+                            <a href="./views/produto.html?id=4" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=5">
+                                <img src="./assets/img/products/starWars/starWars-5.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Yoda baby</p>
+                            <p class="card-preco">R$ 75,00</p>
+                            <a href="./views/produto.html?id=5" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=6">
+                                <img src="./assets/img/products/starWars/starWars-6.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Kylo ren</p>
+                            <p class="card-preco">R$ 70,00</p>
+                            <a href="./views/produto.html?id=6" class="card-link">Ver produto</a>
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="category__container" id="consoles">
+                    <div class="category__header">
+                        <h2>Consoles</h2>
+                        <a href="./views/categoria.html?section=consoles">
+                            <p>Ver tudo</p>
+                            <img src="./assets/img/products/header-arrow.svg"
+                                alt="Flecha que redireciona para ver todos os produtos da categoria consoles" />
+                        </a>
+                    </div>
+
+                    <ul class="category__content" id="consoles__products" data-consoles>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=7">
+                                <img src="./assets/img/products/consoles/consoles-1.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Controle Xbox/PC</p>
+                            <p class="card-preco">R$ 250,00</p>
+                            <a href="./views/produto.html?id=7" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=8">
+                                <img src="./assets/img/products/consoles/consoles-2.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Controle + consoleX</p>
+                            <p class="card-preco">R$ 1.850,00</p>
+                            <a href="./views/produto.html?id=8" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=9">
+                                <img src="./assets/img/products/consoles/consoles-3.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Console Nintendo</p>
+                            <p class="card-preco">R$ 950,00</p>
+                            <a href="./views/produto.html?id=9" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=10">
+                                <img src="./assets/img/products/consoles/consoles-4.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Nintendo Switch</p>
+                            <p class="card-preco">R$ 2.099,00</p>
+                            <a href="./views/produto.html?id=10" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=11">
+                                <img src="./assets/img/products/consoles/consoles-5.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Console XYZ</p>
+                            <p class="card-preco">R$ 699,00</p>
+                            <a href="./views/produto.html?id=11" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=12">
+                                <img src="./assets/img/products/consoles/consoles-6.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Gameboy + jogos</p>
+                            <p class="card-preco">R$ 120,00</p>
+                            <a href="./views/produto.html?id=12" class="card-link">Ver produto</a>
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="category__container">
+                    <div class="category__header">
+                        <h2>Diversos</h2>
+                        <a href="./views/categoria.html?section=diversos">
+                            <p>Ver tudo</p>
+                            <img src="./assets/img/products/header-arrow.svg"
+                                alt="Flecha que redireciona para ver todos os produtos da categoria de diversos" />
+                        </a>
+                    </div>
+
+                    <ul class="category__content" id="diversos__products" data-diversos>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=13">
+                                <img src="./assets/img/products/diversos/diversos-1.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Camisa Atari</p>
+                            <p class="card-preco">R$ 60,00</p>
+                            <a href="./views/produto.html?id=13" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=14">
+                                <img src="./assets/img/products/diversos/diversos-2.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Camisa SNES</p>
+                            <p class="card-preco">R$ 55,00</p>
+                            <a href="./views/produto.html?id=14" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=15">
+                                <img src="./assets/img/products/diversos/diversos-3.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Boneco Sonic</p>
+                            <p class="card-preco">R$ 60,00</p>
+                            <a href="./views/produto.html?id=15" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=16">
+                                <img src="./assets/img/products/diversos/diversos-4.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Relogio digital</p>
+                            <p class="card-preco">R$ 34,99</p>
+                            <a href="./views/produto.html?id=16" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=17">
+                                <img src="./assets/img/products/diversos/diversos-5.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Oculos VR</p>
+                            <p class="card-preco">R$ 60,00</p>
+                            <a href="./views/produto.html?id=17" class="card-link">Ver produto</a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./views/produto.html?id=18">
+                                <img src="./assets/img/products/diversos/diversos-6.svg" alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">Cosplay Pikachu</p>
+                            <p class="card-preco">R$ 89,90</p>
+                            <a href="./views/produto.html?id=18" class="card-link">Ver produto</a>
+                        </li>
+                    </ul>
+
+                </section>
             </ul>
 
 
@@ -104,7 +246,8 @@
         <div class="footer__content">
 
             <div class="footer__logo">
-                <a href="./index.html"><img src="./assets/img/footer/logo.png" alt="Controle de videogame azul e texto Alura Geek"></a>
+                <a href="./index.html"><img src="./assets/img/footer/logo.png"
+                        alt="Controle de videogame azul e texto Alura Geek"></a>
             </div>
             <div class="footer__links">
                 <nav>
@@ -125,10 +268,12 @@
             <form class="form">
                 <div class="form__field">
                     <label for="nome" class="footer__form__label">Nome</label>
-                    <input class="footer__form__input" type="text" name="nome" id="nome" placeholder="Seu nome" required minlength="3" >
+                    <input class="footer__form__input" type="text" name="nome" id="nome" placeholder="Seu nome" required
+                        minlength="3">
                 </div>
                 <div class="form__field">
-                    <textarea class="footer__form__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required maxlength="300"></textarea>
+                    <textarea class="footer__form__textarea" rows="5" cols="40" id="mensagem" name="mensagem"
+                        placeholder="Escreva sua mensagem" required maxlength="300"></textarea>
                 </div>
                 <button class="footer__form__btn" id="formcontato__botao" type="submit">Enviar mensagem</button>
             </form>
@@ -140,5 +285,4 @@
     </div>
 </body>
 <script type="module" src="./assets/js/controllers/pesquisaProduto.js"></script>
-<script type="module" src="./assets/js/controllers/exibeCard-controllers.js"></script>
 </html>

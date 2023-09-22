@@ -28,7 +28,7 @@ function chamaProdutoSelecionado(produtoSelecionado) {
     const conteudo = `
         <div class="selected__info">
             <h1 class="selected__title">${produtoSelecionado.name}</h1>
-            <p class="selected__price">${produtoSelecionado.price}</p>
+            <p class="selected__price">R$ ${produtoSelecionado.price}</p>
             <p class="selected__description">${produtoSelecionado.description}</p>
         </div>`;
 
