@@ -23,7 +23,7 @@ function chamaProdutoSelecionado(produtoSelecionado) {
 
     const imagemProduto = document.createElement("div");
     imagemProduto.classList.add("selected__img");
-    imagemProduto.style.backgroundImage = `url('${produtoSelecionado.imageUrl}')`;
+    imagemProduto.style.backgroundImage = `url('.${produtoSelecionado.imageUrl}')`;
 
     const conteudo = `
         <div class="selected__info">
