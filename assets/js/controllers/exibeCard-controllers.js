@@ -1,5 +1,4 @@
 import { conectaApi } from "../services/produtos-services.js"
-import criaCard from "./criaCard-controllers.js"
 
 const starwarsProdutos = document.getElementById("starwars__products")
 const consolesProdutos = document.getElementById("consoles__products")
@@ -11,16 +10,33 @@ async function exibeCards() {
 
         listaApi.forEach(element => {
             if (element.section === "starWars") {
-                starwarsProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price ));
+                starwarsProdutos.appendChild(criaTodosProdutos(element.name, element.id, element.imageUrl, element.price));
             } else if (element.section === "consoles") {
-                consolesProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price ));
+                consolesProdutos.appendChild(criaTodosProdutos(element.name, element.id, element.imageUrl, element.price));
             } else if (element.section === "diversos") {
-                diversosProdutos.appendChild(criaCard( element.name, element.id, element.imageUrl, element.price ));
+                diversosProdutos.appendChild(criaTodosProdutos(element.name, element.id, element.imageUrl, element.price));
             }
         });
     } catch (error) {
         console.log(error);
     }
+}
+
+function criaTodosProdutos(name, id, imageUrl, price) {
+    const card = document.createElement("li")
+    card.className = `product-card`
+    const conteudo = `
+                            <a href="./produto.html?id=${id}">
+                                <img src=".${imageUrl}"
+                                alt="imagem do produto">
+                            </a>
+                            <p class="card-nome">${name}</p>
+                            <p class="card-preco">R$ ${price}</p>
+                            <a href="./produto.html?id=${id}" class="card-link">Ver produto</a>
+            `
+
+    card.innerHTML = conteudo
+    return card
 }
 
 exibeCards();
