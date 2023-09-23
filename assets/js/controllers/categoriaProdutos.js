@@ -1,5 +1,4 @@
 import { conectaApi } from '../services/produtos-services.js'
-import criaCard from './criaCard-controllers.js'
 
 function carregaCategoria() {
     const url = new URL(window.location)
