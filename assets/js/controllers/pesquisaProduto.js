@@ -1,5 +1,5 @@
 import { conectaApi } from '../services/produtos-services.js'
-import criaCard from "./criaCard-controllers.js"
+import cardProduto from "./exibePesquisa-controllers.js"
 
 async function buscarProduto(event){
     event.preventDefault();
@@ -23,7 +23,7 @@ async function buscarProduto(event){
     containerProdutos.innerHTML = "";
 
     produtosFiltrados.forEach(product => {
-        const card = criaCard(product.name, product.id, product.imageUrl, product.price)
+        const card = cardProduto(product.name, product.id, product.imageUrl, product.price)
         containerProdutos.style.flexDirection = "row"
         containerProdutos.style.gap = "24px"
         containerProdutos.style.flexWrap = "wrap"

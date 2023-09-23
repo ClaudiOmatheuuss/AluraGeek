@@ -1,9 +1,9 @@
-export default function criaCard (name, id, imageUrl, price) {
+export default function cardProdutoInicial (name, id, imageUrl, price) {
     const card = document.createElement("li")
     card.className = `product-card` 
     const conteudo = `
                     <a href="./views/produto.html?id=${id}">
-                        <img src=".${imageUrl}"
+                        <img src="${imageUrl}"
                         alt="imagem do produto">
                     </a>
                     <p class="card-nome">${name}</p>
