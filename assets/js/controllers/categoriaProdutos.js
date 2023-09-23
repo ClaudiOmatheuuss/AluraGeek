@@ -1,7 +1,7 @@
 import { conectaApi } from '../services/produtos-services.js'
 import criaCard from './criaCard-controllers.js'
 
-function carregaCategoria () {
+function carregaCategoria() {
     const url = new URL(window.location)
     let parametroSection = url.searchParams.get("section") //pega parametroSection id na url
 
@@ -16,21 +16,38 @@ async function criaCategoria(parametroSection) {
 
         const secaoTitulo = document.querySelector(".category__title")
 
-        if ( parametroSection === "starWars" ) {
+        if (parametroSection === "starWars") {
             secaoTitulo.textContent = "Star Wars"
-        } else if ( parametroSection === "consoles" ) {
+        } else if (parametroSection === "consoles") {
             secaoTitulo.textContent = "Consoles"
         } else {
             secaoTitulo.textContent = "Diversos"
         }
 
         categoriaSelecionada.forEach(produto => {
-            secaoProdutos.appendChild(criaCard(produto.name, produto.id, produto.imageUrl, produto.price))
+            secaoProdutos.appendChild(criaProdutos(produto.name, produto.id, produto.imageUrl, produto.price))
         })
 
-        } catch (error) {
-            console.log(error);
-        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function criaProdutos(name, id, imageUrl, price) {
+    const card = document.createElement("li")
+    card.className = `product-card`
+    const conteudo = `
+                        <a href="./produto.html?id=${id}">
+                            <img src=".${imageUrl}"
+                            alt="imagem do produto">
+                        </a>
+                        <p class="card-nome">${name}</p>
+                        <p class="card-preco">R$ ${price}</p>
+                        <a href="./produto.html?id=${id}" class="card-link">Ver produto</a>
+        `
+
+    card.innerHTML = conteudo
+    return card
 }
 
 carregaCategoria();
