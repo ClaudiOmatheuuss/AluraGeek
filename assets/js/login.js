@@ -14,7 +14,7 @@ formulario.addEventListener("submit", function (event) {
             const erroForm = document.querySelector(".mensagem-erro")
             erroForm.textContent = "Acesso negado. Tente novamente!"
         } else {
-            window.location.href = "../../views/adm.html"
+            window.location.href = "../../../views/adm.html"
         }
     }
 
