@@ -1,7 +1,7 @@
-import { conectaApi } from '../services/produtos-services.js'
+import { produtoServices } from '../services/produtos-services.js'
 
 async function carregaProdutos() {
-    const listaProdutos = await conectaApi.listaProdutos()
+    const listaProdutos = await produtoServices.listaProdutos()
     //armazena lista de produstos da API
 
     const url = new URL(window.location)

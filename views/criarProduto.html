@@ -43,42 +43,81 @@
         <section class="form__criaProduto__container">
             <div class="form__criaProduto__content">
                 <h2 class="form__criaProduto__title">Adicionar novo produto</h2>
-                <form>
+                <form data-form>
 
                     <div class="form__criaProduto__fields">
                         
                         <div class="form__criaProduto__field">
 
                             <label for="imgUrl" class="form__criaProduto__label">URL da imagem</label>
-                            <input class="form__criaProduto__input" type="text" name="imgUrl" autocomplete="off" required>
+                            <input 
+                                class="form__criaProduto__input" 
+                                type="text" 
+                                name="imgUrl" 
+                                autocomplete="off" 
+                                required 
+                                id="imgUrl"
+                                data-imageUrl
+                            />
                         </div>
                     
                         <div class="form__criaProduto__field">
 
-                            <label for="nomeProduto" class="form__criaProduto__label">Categoria</label>
-                            <input class="form__criaProduto__input" type="text" name="nomeProduto" required>
+                            <label for="categoriaProduto" class="form__criaProduto__label">Categoria</label>
+                            <select id="categoriaProduto" name="categoriaProduto" class="form__criaProduto__input" required data-categoria>
+                                <option value=""></option>
+                                <option value="starWars">Star-wars</option>
+                                <option value="consoles">Consoles</option>
+                                <option value="diversos">Diversos</option>
+                            </select>
                         </div>
                     
                         <div class="form__criaProduto__field">
 
                             <label for="nomeProduto" class="form__criaProduto__label">Nome do produto</label>
-                            <input class="form__criaProduto__input" type="text" name="nomeProduto" autocomplete="off" required>
+                            <input 
+                                class="form__criaProduto__input" 
+                                type="text" 
+                                id="nomeProduto"
+                                name="nomeProduto" 
+                                autocomplete="off" 
+                                maxlength="20" 
+                                required 
+                                data-nome
+                            >
                         </div>
                         
                         <div class="form__criaProduto__field">
 
                             <label for="precoProduto" class="form__criaProduto__label">Preço do produto</label>
-                            <input class="form__criaProduto__input" type="text" name="precoProduto" autocomplete="off" required>
+                            <input 
+                                class="form__criaProduto__input" 
+                                type="number"
+                                id="precoProduto" 
+                                name="precoProduto" 
+                                autocomplete="off" 
+                                required 
+                                data-preco
+                            />
                         </div>
                     
                         <div class="form__criaProduto__field">
 
                             <label for="descricaoProduto" class="form__criaProduto__label">Descrição do produto</label>
-                            <input class="form__criaProduto__input" type="text" name="descricaoProduto" autocomplete="off" required>
+                            <input 
+                                class="form__criaProduto__input" 
+                                type="text" 
+                                id="descricaoProduto"
+                                name="descricaoProduto" 
+                                autocomplete="off" 
+                                maxlength="150" 
+                                required 
+                                data-descricao
+                            />
                         </div>
                     </div>
 
-                    <button class="form__criaProduto__btn" type="submit">Adicionar Produto</button>
+                    <button class="form__criaProduto__btn" type="submit" data-btnEnviar>Adicionar Produto</button>
 
                 </form>
             </div>
@@ -93,5 +132,6 @@
         <p>2023</p>
     </div>
 </body>
+<script type="module" src="../assets/js/controllers/cria-produtos-controllers.js"></script>
 <script src="../assets/js/criaRodape.js"></script>
 </html>
