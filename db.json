@@ -161,6 +161,78 @@
       "section": "diversos",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": 18
+    },
+    {
+      "imageUrl": "products__container",
+      "section": "consoles",
+      "name": "asdwa",
+      "price": "22,00",
+      "description": "sadw",
+      "id": 19
+    },
+    {
+      "imageUrl": "sdawd",
+      "section": "starWars",
+      "name": "daswdaw",
+      "price": "22,00",
+      "description": "sadw",
+      "id": 20
+    },
+    {
+      "imageUrl": "dawdsa",
+      "section": "starWars",
+      "name": "dawdsa",
+      "price": "22,00",
+      "description": "sdadwa",
+      "id": 21
+    },
+    {
+      "imageUrl": "asdaw",
+      "section": "starWars",
+      "name": "dawdas",
+      "price": "22,00",
+      "description": "adawsdw",
+      "id": 22
+    },
+    {
+      "imageUrl": "asdaw",
+      "section": "starWars",
+      "name": "aaaaaaaaa",
+      "price": "33,00",
+      "description": "dsad",
+      "id": 23
+    },
+    {
+      "imageUrl": "dasdaw",
+      "section": "starWars",
+      "name": "asdaw",
+      "price": "22,00",
+      "description": "sadw",
+      "id": 24
+    },
+    {
+      "imageUrl": "sad",
+      "section": "diversos",
+      "name": "aaaaaaaaaaaaaa",
+      "price": "22,00",
+      "description": "sadaw",
+      "id": 25
+    },
+    {
+      "imageUrl": "asdwa",
+      "section": "consoles",
+      "name": "aaaaaaaaaaaa",
+      "price": "22,00",
+      "description": "asdwa",
+      "id": 26
+    },
+    {
+      "imageUrl": "dasdw",
+      "section": "starWars",
+      "name": "asdaw",
+      "price": "22,00",
+      "description": "dasdaw",
+      "id": 27
     }
   ]
 }
