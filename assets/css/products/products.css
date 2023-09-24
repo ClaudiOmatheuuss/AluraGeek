@@ -26,6 +26,7 @@
 .category__header h2 {
     color: var(--preto-100);
     font-size: 22px;
+    font-family: var(--fonte-padrao);
 }
 
 .category__header a {

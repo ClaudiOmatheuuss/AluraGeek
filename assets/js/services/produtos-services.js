@@ -20,6 +20,7 @@ async function criaProdutos (imageUrl, section, name, price, description) {
             imageUrl: imageUrl,
             section: section,
             name: name,
+            alt: "imagem do produto",
             price: `${price},00`,
             description: description
         })

@@ -34,11 +34,18 @@
 }
 
 .header__nav__pesquisa {
-    display: none;
+    display: flex;
+}
+
+.header__nav__pesquisa button {
+    border: none;
+    background: none;
 }
 
 .header__pesquisa--input {
     width: 0;
+    border: none;
+    outline: none;
 }
 
 .btn__login__header {

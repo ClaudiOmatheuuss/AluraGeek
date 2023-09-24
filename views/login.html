@@ -28,13 +28,12 @@
             <div class="header__nav__pesquisa">
                 <input class="header__pesquisa--input" placeholder="O que você deseja encontrar?" type="text"
                     id="input__pesquisa">
-                <a class="btn__pesquisa__img" href="#"><img class="header__pesquisa__img" src="../assets/img/header/lupa.svg"
+                <button class="btn__pesquisa__img"><img class="header__pesquisa__img" src="../assets/img/header/lupa.svg"
                     alt="Lupa">
-                </a>
+                </button>
             </div>
 
         </nav>
-        <a class="lupa__img" href="#"><img class="header__pesquisa__img" src="../assets/img/header/lupa.svg" alt="Lupa"></a>
     </header>
     <main>
         
@@ -42,15 +41,30 @@
         <section class="form-login">
             <div class="form__content">
                 <h2 class="form__login__title">Iniciar Sessão</h2>
-                <form class="form__content">
+                <form class="form__content" data-form>
 
                     <div class="form__login__field">
-                        <input class="form__login__input" placeholder="Escreva seu email" type="email" id="email" required>
+                        <input 
+                            class="form__login__input" 
+                            placeholder="Escreva seu email" 
+                            type="email" 
+                            id="email" 
+                            data-email
+                        >
                     </div>
 
                     <div class="form__login__field">
-                        <input class="form__login__input" type="password" placeholder="Escreva sua senha" required minlength="3" maxlength="100">
+                        <input 
+                            class="form__login__input" 
+                            type="password" 
+                            placeholder="Escreva sua senha" 
+                            minlength="3" 
+                            id="senha"
+                            maxlength="100"
+                            data-password
+                        >
                     </div>
+                    <span class="mensagem-erro"></span>
 
                     <button class="form__login__btn" type="submit">Entrar</button>
 
@@ -67,5 +81,7 @@
         <p>2023</p>
     </div>
 </body>
+<script src="../assets/js/login.js"></script>
+<script type="module" src="../assets/js/controllers/pesquisaProduto.js"></script>
 <script src="../assets/js/criaRodape.js"></script>
 </html>
