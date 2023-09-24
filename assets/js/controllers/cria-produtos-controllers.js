@@ -15,7 +15,6 @@ async function adicionarProduto(evento) {
 
 
     await produtoServices.criaProdutos(imageUrl, section, name, price, description); 
-    window.location.href = "../../../views/adm.html"
 }
 
 formulario.addEventListener("submit", evento => adicionarProduto(evento));
