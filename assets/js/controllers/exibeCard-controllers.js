@@ -1,4 +1,4 @@
-import { conectaApi } from "../services/produtos-services.js"
+import { produtoServices } from "../services/produtos-services.js"
 
 const starwarsProdutos = document.getElementById("starwars__products")
 const consolesProdutos = document.getElementById("consoles__products")
@@ -6,7 +6,7 @@ const diversosProdutos = document.getElementById("diversos__products")
 
 async function exibeCards() {
     try {
-        const listaApi = await conectaApi.listaProdutos();
+        const listaApi = await produtoServices.listaProdutos();
 
         listaApi.forEach(element => {
             if (element.section === "starWars") {

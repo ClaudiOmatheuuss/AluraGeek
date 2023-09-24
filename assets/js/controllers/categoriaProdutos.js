@@ -1,4 +1,4 @@
-import { conectaApi } from '../services/produtos-services.js'
+import { produtoServices } from '../services/produtos-services.js'
 
 function carregaCategoria() {
     const url = new URL(window.location)
@@ -9,7 +9,7 @@ function carregaCategoria() {
 
 async function criaCategoria(parametroSection) {
     try {
-        const listaProdutos = await conectaApi.listaProdutos()
+        const listaProdutos = await produtoServices.listaProdutos()
         const secaoProdutos = document.querySelector(".category__content")
         const categoriaSelecionada = listaProdutos.filter(produto => produto.section === parametroSection)
 

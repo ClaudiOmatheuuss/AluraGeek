@@ -1,10 +1,10 @@
-import { conectaApi } from '../services/produtos-services.js'
+import { produtoServices } from '../services/produtos-services.js'
 import cardProduto from "./exibePesquisa-controllers.js"
 
 async function buscarProduto(event){
     event.preventDefault();
     const termoDeBusca = document.querySelector("[data-input-pesquisa]").value
-    const listaProdutos = await conectaApi.listaProdutos()
+    const listaProdutos = await produtoServices.listaProdutos()
     
     
     const secaoProdutos = document.querySelector(".products__container")
