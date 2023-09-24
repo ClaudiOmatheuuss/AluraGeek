@@ -26,7 +26,7 @@ async function criaProdutos (imageUrl, section, name, price, description) {
         })
     }).then(resposta => {
         if (resposta.ok) { //se resposta tiver correta retorna o body
-            window.location.href = "./adm.html"
+            window.location.href = "../views/adm.html"
             return resposta.body
         } else {
             throw new Error("Não foi possível criar o produto.")
