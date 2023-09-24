@@ -27,10 +27,10 @@ function criaRodape() {
             <form class="form">
                 <div class="form__field">
                     <label for="nome" class="footer__form__label">Nome</label>
-                    <input class="footer__form__input" type="text" name="nome" id="nome" placeholder="Seu nome" required minlength="3" >
+                    <input class="footer__form__input" type="text" name="nome" id="nome" placeholder="Seu nome" required minlength="3" maxlength="40" >
                 </div>
                 <div class="form__field">
-                    <textarea class="footer__form__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required maxlength="300"></textarea>
+                    <textarea class="footer__form__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required minlength="2" maxlength="120"></textarea>
                 </div>
                 <button class="footer__form__btn" id="formcontato__botao" type="submit">Enviar mensagem</button>
             </form>
