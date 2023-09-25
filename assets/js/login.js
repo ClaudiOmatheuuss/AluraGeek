@@ -10,7 +10,7 @@ formulario.addEventListener("submit", function (event) {
         alert("Os campos email e senha devem estar preenchidos.")
     } else {
    
-        if ( email !== "admin@gmail.com" || password !== "admin123" ) {
+        if ( email !== "admin@gmail.com" || password !== "admin" ) {
             const erroForm = document.querySelector(".mensagem-erro")
             erroForm.textContent = "Acesso negado. Tente novamente!"
         } else {
