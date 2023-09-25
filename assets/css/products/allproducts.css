@@ -61,6 +61,33 @@
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 16px;
+    position: relative;
+}
+
+.product-card .card-edit {
+    top: 5%;
+    position: absolute;
+    right: 5%;
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+    border: none;
+    background-image: url("../../img/products/editar.png");
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.product-card .card-delete {
+    top: 5%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 22%;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url("../../img/products/deletar.png");
 }
 
 .product-card img {

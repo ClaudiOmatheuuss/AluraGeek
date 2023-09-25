@@ -4,7 +4,7 @@ const starwarsProdutos = document.getElementById("starwars__products")
 const consolesProdutos = document.getElementById("consoles__products")
 const diversosProdutos = document.getElementById("diversos__products")
 
-async function exibeCards() {
+async function exibeTodosProdutos() {
     try {
         const listaApi = await produtoServices.listaProdutos();
 
@@ -27,11 +27,11 @@ function criaTodosProdutos(name, id, imageUrl, price) {
     card.className = `product-card`
     const conteudo = `
                             <a href="./produto.html?id=${id}">
-                                <img src=".${imageUrl}"
+                                <img src="${imageUrl}"
                                 alt="imagem do produto">
                             </a>
                             <p class="card-nome">${name}</p>
-                            <p class="card-preco">R$ ${price}</p>
+                            <p class="card-preco">R$ ${price},99</p>
                             <a href="./produto.html?id=${id}" class="card-link">Ver produto</a>
             `
 
@@ -39,4 +39,4 @@ function criaTodosProdutos(name, id, imageUrl, price) {
     return card
 }
 
-exibeCards();
+exibeTodosProdutos();

@@ -1,7 +1,7 @@
 {
   "produtos": [
     {
-      "imageUrl": "./assets/img/products/starWars/starWars-1.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1620138694717-07141b500f57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "name": "Xícara Stormtrooper",
       "price": "25,00",
       "id": 1,
@@ -10,7 +10,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/starWars/starWars-2.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1621627107348-85f0ecd3f633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1413&q=80",
       "name": "Mascara SW",
       "price": "35,00",
       "id": 2,
@@ -19,7 +19,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/starWars/starWars-3.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1599002762948-19068b069803?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1422&q=80",
       "name": "Miniatura Yoda",
       "price": "60,00",
       "id": 3,
@@ -28,7 +28,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/starWars/starWars-4.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
       "name": "Boneco Stormtrooper",
       "price": "69,99",
       "id": 4,
@@ -37,7 +37,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/starWars/starWars-5.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1412&q=80",
       "name": "Yoda baby",
       "price": "75,00",
       "id": 5,
@@ -46,7 +46,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/starWars/starWars-6.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1591927675938-b81b071d3e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "name": "Kylo ren",
       "price": "70,00",
       "id": 6,
@@ -55,7 +55,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/consoles/consoles-1.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1605901058027-ebdb31733cbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "name": "Controle Xbox/PC",
       "price": "250,00",
       "id": 7,
@@ -64,7 +64,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/consoles/consoles-2.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80",
       "name": "Controle + consoleX",
       "price": "1.850,00",
       "id": 8,
@@ -73,7 +73,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/consoles/consoles-3.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1587653666447-8a232c92e881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1481&q=80",
       "name": "Console Nintendo",
       "price": "950,00",
       "id": 9,
@@ -82,7 +82,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/consoles/consoles-4.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1615750206996-69edef655324?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1490&q=80",
       "name": "Nintendo Switch",
       "price": "2.099,00",
       "id": 10,
@@ -91,16 +91,16 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/consoles/consoles-5.svg",
-      "name": "Console XYZ",
-      "price": "699,00",
+      "imageUrl": "https://images.unsplash.com/photo-1621259182181-1ccb9ec306cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1512&q=80",
+      "name": "Xbox",
+      "price": "1.699,00",
       "id": 11,
       "alt": "Imagem do produto",
       "section": "consoles",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/consoles/consoles-6.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1659641165345-c7891450c3e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
       "name": "Gameboy + jogos",
       "price": "120,00",
       "id": 12,
@@ -109,7 +109,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/diversos/diversos-1.svg",
+      "imageUrl": "https://www.veinerd.com/uploads/products/large/atari-1.jpg",
       "name": "Camisa Atari",
       "price": "60,00",
       "id": 13,
@@ -118,8 +118,8 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/diversos/diversos-2.svg",
-      "name": "Camisa SNES",
+      "imageUrl": "https://cdn.awsli.com.br/600x1000/0/622/produto/90992297/5bdf969c7c.jpg",
+      "name": "Camisa SNES Heroes",
       "price": "55,00",
       "id": 14,
       "alt": "Imagem do produto",
@@ -127,7 +127,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/diversos/diversos-3.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1550747545-c896b5f89ff7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1467&q=80",
       "name": "Boneco Sonic",
       "price": "60,00",
       "id": 15,
@@ -136,8 +136,8 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/diversos/diversos-4.svg",
-      "name": "Relogio digital",
+      "imageUrl": "https://images.unsplash.com/photo-1611946258523-9c2bfabb94e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1371&q=80",
+      "name": "Rádio AM/FM",
       "price": "34,99",
       "id": 16,
       "alt": "Imagem do produto",
@@ -145,7 +145,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/diversos/diversos-5.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1605647540924-852290f6b0d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1437&q=80",
       "name": "Oculos VR",
       "price": "60,00",
       "id": 17,
@@ -154,7 +154,7 @@
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "imageUrl": "./assets/img/products/diversos/diversos-6.svg",
+      "imageUrl": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
       "name": "Cosplay Pikachu",
       "price": "89,90",
       "alt": "Imagem do produto",

@@ -1,7 +1,7 @@
 // GET
 
 async function listaProdutos () {
-    const listaApi = await fetch("http://localhost:3000/produtos")
+    const listaApi = await fetch("https://651067693ce5d181df5d387c.mockapi.io/api/v1/produtos")
     .then(resposta => resposta.json())
     .catch(error => console.log(error))
 
@@ -11,7 +11,7 @@ async function listaProdutos () {
 // POST
 
 async function criaProdutos (imageUrl, section, name, price, description) {
-    await fetch("http://localhost:3000/produtos", {
+    await fetch("https://651067693ce5d181df5d387c.mockapi.io/api/v1/produtos", {
         method: "POST",//metodo do fetch
         headers: {//tipo do conteudo
             "Content-type": "application/json"
@@ -21,7 +21,7 @@ async function criaProdutos (imageUrl, section, name, price, description) {
             section: section,
             name: name,
             alt: "imagem do produto",
-            price: `${price},00`,
+            price: `${price}`,
             description: description
         })
     }).then(resposta => {
@@ -36,5 +36,5 @@ async function criaProdutos (imageUrl, section, name, price, description) {
 
 export const produtoServices = {
     listaProdutos,
-    criaProdutos
+    criaProdutos,
 }

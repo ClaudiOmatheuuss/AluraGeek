@@ -53,9 +53,8 @@ const input = document.querySelector(".header__pesquisa--input")
 input.style.display = "none"
 
 function chamaPesquisa(event) {
-    cabecalho.style.gap = "12%"
+    cabecalho.style.gap = "10%"
     input.style.display = "flex"
-    cabecalho.style.justifyContent = "center"
     cabecalho.style.flexWrap = "wrap"
     input.style.width = "65px"
     pesquisaCampo.style.width = "250px"

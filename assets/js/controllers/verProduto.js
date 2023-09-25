@@ -7,8 +7,7 @@ async function carregaProdutos() {
     const url = new URL(window.location)
     let idParametro = url.searchParams.get("id") //pega parametro id na url
 
-    let produtoSelecionado = listaProdutos.find(item => item.id === Number(idParametro)) //procura o produto na lista da API com mesmo id do valor passado na URL
-    console.log(produtoSelecionado)
+    let produtoSelecionado = listaProdutos.find(item => item.id === idParametro) //procura o produto na lista da API com mesmo id do valor passado na URL
 
     chamaProdutoSelecionado(produtoSelecionado);
     carregaSimilares(produtoSelecionado, listaProdutos);
@@ -22,12 +21,12 @@ function chamaProdutoSelecionado(produtoSelecionado) {
 
     const imagemProduto = document.createElement("div");
     imagemProduto.classList.add("selected__img");
-    imagemProduto.style.backgroundImage = `url(".${produtoSelecionado.imageUrl}")`;
+    imagemProduto.style.backgroundImage = `url("${produtoSelecionado.imageUrl}")`;
 
     const conteudo = `
         <div class="selected__info">
             <h1 class="selected__title">${produtoSelecionado.name}</h1>
-            <p class="selected__price">R$ ${produtoSelecionado.price}</p>
+            <p class="selected__price">R$ ${produtoSelecionado.price},99</p>
             <p class="selected__description">${produtoSelecionado.description}</p>
         </div>`;
 
@@ -61,11 +60,11 @@ function criaSimilares(name, id, imageUrl, price) {
     card.className = `product-card`
     const conteudo = `
                         <a href="./produto.html?id=${id}">
-                            <img src=".${imageUrl}"
+                            <img src="${imageUrl}"
                             alt="imagem do produto">
                         </a>
                         <p class="card-nome">${name}</p>
-                        <p class="card-preco">R$ ${price}</p>
+                        <p class="card-preco">R$ ${price},99</p>
                         <a href="./produto.html?id=${id}" class="card-link">Ver produto</a>
         `
 

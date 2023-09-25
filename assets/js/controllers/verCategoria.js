@@ -24,7 +24,7 @@ async function criaCategoria(parametroSection) {
         }
 
         categoriaSelecionada.forEach(produto => {
-            secaoProdutos.appendChild(criaProdutos(produto.name, produto.id, produto.imageUrl, produto.price))
+            secaoProdutos.appendChild(todosProdutos(produto.name, produto.id, produto.imageUrl, produto.price))
         })
 
     } catch (error) {
@@ -32,16 +32,16 @@ async function criaCategoria(parametroSection) {
     }
 }
 
-function criaProdutos(name, id, imageUrl, price) {
+function todosProdutos(name, id, imageUrl, price) {
     const card = document.createElement("li")
     card.className = `product-card`
     const conteudo = `
                         <a href="./produto.html?id=${id}">
-                            <img src=".${imageUrl}"
+                            <img src="${imageUrl}"
                             alt="imagem do produto">
                         </a>
                         <p class="card-nome">${name}</p>
-                        <p class="card-preco">R$ ${price}</p>
+                        <p class="card-preco">R$ ${price},99</p>
                         <a href="./produto.html?id=${id}" class="card-link">Ver produto</a>
         `
 
