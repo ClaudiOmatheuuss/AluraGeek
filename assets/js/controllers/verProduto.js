@@ -43,7 +43,7 @@ function carregaSimilares(produtoSelecionado, listaProdutos) {
     //filtra produtos da api com a mesma categoria em comum do produto selecionado
     let produtosSimilares = listaProdutos.filter(item => item.section === produtoSelecionado.section)
     //filtra entre os produtos da mesma categoria apenas os produtos com id diferente do produto selecionado
-    produtosSimilares = produtosSimilares.filter(item => item.id !== Number(produtoSelecionado.id))
+    produtosSimilares = produtosSimilares.filter(item => item.id !== produtoSelecionado.id)
 
     //recorta itens filtrados da mesma categoria do indice 0 até 5, ou seja, retorna 6 objetos de produtos
     produtosSimilares = produtosSimilares.slice(0, 5)
