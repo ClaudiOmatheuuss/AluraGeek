@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/header/header.css" />
+    <link rel="stylesheet" href="../assets/css/crud-form/crud-form.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer.css" />
+    <title>Alura Geek - Criar produto</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+
+        <nav class="header__nav">
+
+            <div class="header__nav__logo">
+                <a class="nav__logo" href="../index.html"><img src="../assets/img/header/logo.png"
+                    alt="Controle de videogame azul e texto Alura Geek">
+                </a>
+            </div>
+
+            <div class="header__nav__pesquisa">
+                <input class="header__pesquisa--input" placeholder="O que você deseja encontrar?" type="text"
+                    id="input__pesquisa">
+                <a class="btn__pesquisa__img" href="#"><img class="header__pesquisa__img" src="../assets/img/header/lupa.svg"
+                    alt="Lupa">
+                </a>
+            </div>
+
+        </nav>
+        <a href="./adm.html" class="btn__login__header">Menu administrador</a>
+    </header>
+    <main>
+        
+        <!-- secao do form de criacao do novo produto -->
+        <section class="form__crud__container">
+            <div class="form__crud__content">
+                <h2 class="form__crud__title">Deletar produto</h2>
+                <form data-form>
+
+                    <div class="form__crud__fields">
+                    
+                        <div class="form__crud__field">
+
+                            <label for="categoriaProduto" class="form__crud__label">Categoria</label>
+                            <select id="categoriaProduto" name="categoriaProduto" class="form__crud__input" required data-categoria>
+                                <option value=""></option>
+                                <option id="opcaoCategoria" value="starWars">Star-wars</option>
+                                <option id="opcaoCategoria" value="consoles">Consoles</option>
+                                <option id="opcaoCategoria" value="diversos">Diversos</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form__crud__fields">
+                    
+                        <div class="form__crud__field">
+
+                            <label for="categoriaProduto" class="form__crud__label">Produtos</label>
+                            <select id="selecionaProduto" name="categoriaProduto" class="form__crud__input" required data-produto>
+                                <option value="">selecione a categoria antes de selecionar o produto</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="form__crud__btn" type="submit">Deletar Produto</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <!--Rodape dinâmico-->
+    </footer>
+    <div class="dev">
+        <p>Desenvolvido por Claudio Matheus</p>
+        <p>2023</p>
+    </div>
+</body>
+<script type="module" src="../assets/js/controllers/deleta-produtos-controllers.js"></script>
+<script src="../assets/js/criaRodape.js"></script>
+</html>

@@ -1,8 +1,8 @@
-.form__criaProduto__container {
+.form__crud__container {
     background-color: var(--preto-30);
 }
 
-.form__criaProduto__content {
+.form__crud__content {
     font-family: var(--fonte-padrao);
     display: flex;
     flex-direction: column;
@@ -11,13 +11,13 @@
     gap: 16px;
 }
 
-.form__criaProduto__title {
+.form__crud__title {
     color: var(--preto-100);
     font-size: 22px;
     font-weight: 700;
 }
 
-.form__criaProduto__content form {
+.form__crud__content form {
     align-items: stretch;
     display: flex;
     flex-direction: column;
@@ -25,13 +25,13 @@
     gap: 16px;
 }
 
-.form__criaProduto__content .form__criaProduto__fields {
+.form__crud__content .form__crud__fields {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.form__criaProduto__fields .form__criaProduto__field {
+.form__crud__fields .form__crud__field {
     display: flex;
     border-radius: 5px;
     flex-direction: column;
@@ -43,13 +43,13 @@
     border-bottom: 2px solid var(--preto-50);
 }
 
-.form__criaProduto__field .form__criaProduto__label {
+.form__crud__field .form__crud__label {
     color: var(--preto-50);
     font-size: 12px;
     line-height: 16px;
 }
 
-.form__criaProduto__field .form__criaProduto__input {
+.form__crud__field .form__crud__input {
     outline: none;
     border: none;
     color: var(--preto-100);
@@ -57,7 +57,7 @@
     font-size: 16px;
 }
 
-.form__criaProduto__content .form__criaProduto__btn {
+.form__crud__content .form__crud__btn {
     border: none;
     color: var(--branco);
     cursor: pointer;
@@ -67,23 +67,23 @@
     padding: 16px;
 }
 
-.form__criaProduto__content .form__criaProduto__btn:hover {
+.form__crud__content .form__crud__btn:hover {
     background-color: var(--azul-80);
 }
 
 @media screen and (min-width: 768px){
-    .form__criaProduto__content {
+    .form__crud__content {
         padding: 32px;
     }
     
 }
 
 @media screen and (min-width: 1024px){
-   .form__criaProduto__content {
+   .form__crud__content {
     padding: 64px 30vw;
    }
 
-   .form__criaProduto__content .form__criaProduto__title {
+   .form__crud__content .form__crud__title {
     font-size: 32px;
    }
 }

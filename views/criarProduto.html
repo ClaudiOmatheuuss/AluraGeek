@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/reset.css" />
     <link rel="stylesheet" href="../assets/css/header/header.css" />
-    <link rel="stylesheet" href="../assets/css/criaProduto-form/criaProduto-form.css" />
+    <link rel="stylesheet" href="../assets/css/crud-form/crud-form.css" />
     <link rel="stylesheet" href="../assets/css/footer/footer.css" />
     <title>Alura Geek - Criar produto</title>
 </head>
@@ -39,18 +39,18 @@
     <main>
         
         <!-- secao do form de criacao do novo produto -->
-        <section class="form__criaProduto__container">
-            <div class="form__criaProduto__content">
-                <h2 class="form__criaProduto__title">Adicionar novo produto</h2>
+        <section class="form__crud__container">
+            <div class="form__crud__content">
+                <h2 class="form__crud__title">Adicionar novo produto</h2>
                 <form data-form>
 
-                    <div class="form__criaProduto__fields">
+                    <div class="form__crud__fields">
                         
-                        <div class="form__criaProduto__field">
+                        <div class="form__crud__field">
 
-                            <label for="imgUrl" class="form__criaProduto__label">URL da imagem</label>
+                            <label for="imgUrl" class="form__crud__label">URL da imagem</label>
                             <input 
-                                class="form__criaProduto__input" 
+                                class="form__crud__input" 
                                 type="text" 
                                 name="imgUrl" 
                                 autocomplete="off" 
@@ -60,10 +60,10 @@
                             />
                         </div>
                     
-                        <div class="form__criaProduto__field">
+                        <div class="form__crud__field">
 
-                            <label for="categoriaProduto" class="form__criaProduto__label">Categoria</label>
-                            <select id="categoriaProduto" name="categoriaProduto" class="form__criaProduto__input" required data-categoria>
+                            <label for="categoriaProduto" class="form__crud__label">Categoria</label>
+                            <select id="categoriaProduto" name="categoriaProduto" class="form__crud__input" required data-categoria>
                                 <option value=""></option>
                                 <option value="starWars">Star-wars</option>
                                 <option value="consoles">Consoles</option>
@@ -71,11 +71,11 @@
                             </select>
                         </div>
                     
-                        <div class="form__criaProduto__field">
+                        <div class="form__crud__field">
 
-                            <label for="nomeProduto" class="form__criaProduto__label">Nome do produto</label>
+                            <label for="nomeProduto" class="form__crud__label">Nome do produto</label>
                             <input 
-                                class="form__criaProduto__input" 
+                                class="form__crud__input" 
                                 type="text" 
                                 id="nomeProduto"
                                 name="nomeProduto" 
@@ -86,11 +86,11 @@
                             >
                         </div>
                         
-                        <div class="form__criaProduto__field">
+                        <div class="form__crud__field">
 
-                            <label for="precoProduto" class="form__criaProduto__label">Preço do produto</label>
+                            <label for="precoProduto" class="form__crud__label">Preço do produto</label>
                             <input 
-                                class="form__criaProduto__input" 
+                                class="form__crud__input" 
                                 type="number"
                                 id="precoProduto" 
                                 name="precoProduto" 
@@ -100,11 +100,11 @@
                             />
                         </div>
                     
-                        <div class="form__criaProduto__field">
+                        <div class="form__crud__field">
 
-                            <label for="descricaoProduto" class="form__criaProduto__label">Descrição do produto</label>
+                            <label for="descricaoProduto" class="form__crud__label">Descrição do produto</label>
                             <input 
-                                class="form__criaProduto__input" 
+                                class="form__crud__input" 
                                 type="text" 
                                 id="descricaoProduto"
                                 name="descricaoProduto" 
@@ -116,7 +116,7 @@
                         </div>
                     </div>
 
-                    <button class="form__criaProduto__btn" type="submit">Adicionar Produto</button>
+                    <button class="form__crud__btn" type="submit">Adicionar Produto</button>
 
                 </form>
             </div>

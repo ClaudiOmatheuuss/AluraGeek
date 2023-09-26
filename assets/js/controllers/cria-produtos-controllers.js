@@ -17,4 +17,6 @@ async function adicionarProduto(evento) {
     await produtoServices.criaProdutos(imageUrl, section, name, price, description); 
 }
 
-formulario.addEventListener("submit", evento => adicionarProduto(evento));
+if(formulario) {
+    formulario.addEventListener("submit", evento => adicionarProduto(evento));
+}
