@@ -1,5 +1,5 @@
 import { produtoServices } from '../services/produtos-services.js'
-import cardProduto from "./exibePesquisa-controllers.js"
+import cardProduto from "./exibePesquisa.js"
 
 async function buscarProduto(event) {
     event.preventDefault();
@@ -21,7 +21,7 @@ async function buscarProduto(event) {
                                 ${product.name ? product.name.toLowerCase() : ""} 
                                 ${product.section ? product.section.toLowerCase() : ""}
                             `;
-            return infoCombinadas.includes(termoDeBusca);
+            return infoCombinadas.includes(termoDeBusca.toLowerCase());
         })
 
         containerProdutos.innerHTML = "";
