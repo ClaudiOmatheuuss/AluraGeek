@@ -4,3 +4,7 @@ Solução do terceiro desafio do programa Oracle Next Education onde crio uma p�
 figma a ser seguido: https://www.figma.com/file/itJpWbvHxSUcUeMPy1lmof/AluraGeek?node-id=0%3A1&mode=dev
 
 deploy: https://claudiomatheuuss.github.io/AluraGeek/index.html
+
+<>para usar as features de administrador</>
+login/email:    admin@gmail.com
+senha:          admin
