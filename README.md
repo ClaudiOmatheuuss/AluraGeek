@@ -6,5 +6,11 @@ figma a ser seguido: https://www.figma.com/file/itJpWbvHxSUcUeMPy1lmof/AluraGeek
 deploy: https://claudiomatheuuss.github.io/AluraGeek/index.html
 
 <>para usar as features de administrador</>
+
+
+
 login/email:    admin@gmail.com
+
+
+
 senha:          admin
